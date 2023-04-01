@@ -335,7 +335,7 @@ int main() {
     }
   }
   ofstream fout;
-  fout.open("Data.dat", ios::app);
+  fout.open("Data.dat");
   fout << "TITLE = \"Data\"\nvariables = X,Y,U,V,Velocity,T\nZone "
           "t=\"data\"\nI=101,J=101,F=POINT"
        << endl;
